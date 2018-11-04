@@ -32,14 +32,12 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    
   },
 
   /**
@@ -61,5 +59,16 @@ Page({
    */
   onShareAppMessage: function () {
     
-  }
+  },
+  onTap:function(){
+    // 从父集跳至子集页面的方法，小程序限制五级
+    wx.navigateTo({
+      url: '../posts/post',
+    })
+
+    // 两个页面平行跳转
+    // wx.redirectTo({
+    //   url: '../posts/post',
+    // })
+  },
 })
