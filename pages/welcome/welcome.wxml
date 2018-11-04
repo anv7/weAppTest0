@@ -1,0 +1,7 @@
+<view class='container'>
+  <image src='./user.jpg'></image>
+  <text class='userName'>Hello,World</text>
+  <view class='motogo'>
+    <text class='go'>开启小程序之旅</text>
+  </view>
+</view>
