@@ -7,6 +7,7 @@ var local_database = [{
   reading: "112",
   collection: "96",
   headImgSrc: "/images/avatar/3.png",
+  postId: 0,
 }, {
   date: "Sep 19 2017",
   title: "比利中士",
@@ -16,6 +17,8 @@ var local_database = [{
   reading: "132",
   collection: "96",
   headImgSrc: "/images/avatar/1.png",
+  postId: 1,
+
 }, {
   date: "Noe 11 2017",
   title: "正是虾肥蟹壮时",
@@ -25,6 +28,8 @@ var local_database = [{
   reading: "112",
   collection: "96",
   headImgSrc: "/images/avatar/2.png",
+  postId: 2,
+
 }, {
   date: "Sep 10 2017",
   title: "正是虾肥蟹壮时",
@@ -34,6 +39,8 @@ var local_database = [{
   reading: "112",
   collection: "96",
   headImgSrc: "/images/avatar/4.png",
+  postId: 3,
+
 }, {
   date: "Sep 9 2017",
   title: "正是虾肥蟹壮时",
@@ -43,6 +50,8 @@ var local_database = [{
   reading: "12",
   collection: "76",
   headImgSrc: "/images/avatar/3.png",
+  postId: 4,
+
 }, {
   date: "Sep 19 2017",
   title: "正是虾肥蟹壮时",
@@ -52,9 +61,11 @@ var local_database = [{
   reading: "234",
   collection: "532",
   headImgSrc: "/images/avatar/5.png",
+  postId: 5,
+
 }, ]
 
 // 给数据一个出口,此处花括号是设置一个对象的意思哦 小伙子，postList此处就是一个对象
 module.exports = {
-  postList:local_database
+  postList: local_database
 }
