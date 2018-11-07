@@ -1,7 +1,7 @@
 <template name='postItem'>
 <view class='welcome-container'>
     <view class='welcome-author-date'>
-      <image class='welcome-author' src='{{ item.headImgSrc }}'></image>
+      <image class='welcome-author' src='{{ item.avatar }}'></image>
       <text class='welcome-date'>{{item.date}}</text>
     </view>
     <text class='welcome-title'>{{idx}}-{{item.title}}</text>

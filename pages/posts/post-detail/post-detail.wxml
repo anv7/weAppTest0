@@ -1,13 +1,13 @@
 <view class='contaiter'>
-  <image class='head-image' src='/images/post/crab.png'></image>
+  <image class='head-image' src='{{postData.headImgSrc}}'></image>
   <image class='audio' src='/images/music/music-start.png'></image>
   <view class='author-date'>
-    <image class='avatar' src='/images/avatar/1.png'></image>
-    <text class='author'>作者姓名</text>
+    <image class='avatar' src='{{postData.avatar}}'></image>
+    <text class='author'>{{postData.author}}</text>
     <text class='const-text'>发表于</text>
-    <text class='date'>22小时前</text>
+    <text class='date'>{{postData.dateTime}}</text>
   </view>
-  <text class='title'>使命召唤好玩吗 很好玩</text>
+  <text class='title'>{{postData.title}}</text>
 
   <view class='tool'>
     <view class='circle-img'>
@@ -19,7 +19,7 @@
     </view>
   </view>
   <text class='detail'>
-文章的正文内容 文章的正文内容文章的正文内容文章的正文内容文章的正文内容文章的正文内容
+{{postData.detail}}
 </text>
 
 </view>
