@@ -17,7 +17,19 @@ Page({
     // this.setData.postData = postData;
     this.setData({
       postData: postsData.postList[postId]
+    });
+    // wx.setStorageSync('key', '风暴英雄')
+    wx.setStorageSync('key', {
+      game:'风暴营行',
+      develpor:'hehhe'
     })
+  },
+  onCollectionTap(event){
+    var game = wx.getStorageSync('key');
+    console.log(game)
+  },
+  onShareTap(){
+    wx.removeStorageSync('key');
   },
 
   /**
