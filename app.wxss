@@ -1,4 +1,6 @@
 /* 全局样式的设定 */
-text{
+
+text {
   font-family: MicroSoft Yahei;
+  font-size: 24rpx;
 }
