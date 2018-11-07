@@ -1,5 +1,6 @@
 <view class='contaiter'>
   <image class='head-image' src='/images/post/crab.png'></image>
+  <image class='audio' src='/images/music/music-start.png'></image>
   <view class='author-date'>
     <image class='avatar' src='/images/avatar/1.png'></image>
     <text class='author'>作者姓名</text>
