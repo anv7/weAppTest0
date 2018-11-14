@@ -11,8 +11,11 @@
 
   <view class='tool'>
     <view class='circle-img'>
-      <image catchtap='onCollectionTap' src='/images/icon/collection.png'></image>
-      <image catchtap='onShareTap' class='share-img' src='/images/icon/share.png'></image>
+
+      <image wx:if='{{collected}}' src='/images/icon/collection.png' catchtap='onCollectedTap'></image>
+
+      <image wx:else catchtap='onCollectedTap' src='/images/icon/collection-anti.png'></image>
+      <image class='share-img' src='/images/icon/share.png'></image>
     </view>
     <view class='horizon'>
 
